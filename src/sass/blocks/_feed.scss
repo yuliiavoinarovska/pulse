@@ -1,0 +1,40 @@
+.feed {
+	padding: 50px 0 100px 0;
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		gap: 60px;
+	}
+
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		gap: 30px;
+	}
+
+	&__img {
+		width: 169px;
+		height: 169px;
+	}
+
+	&__header {
+		font-weight: 700;
+		font-size: 18px;
+		color: #0D0D0D;
+	}
+
+	&__subheader {
+		font-weight: 500;
+		font-size: 14px;
+		color: #646464;
+	}
+	
+	&__text {
+		margin-top: 10px;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 25px;
+		color: #0D0D0D;
+	}
+}

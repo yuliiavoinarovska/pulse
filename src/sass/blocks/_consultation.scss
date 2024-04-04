@@ -1,0 +1,38 @@
+.consultation {
+	max-height: 750px;
+	padding: 100px 0;
+	background: url('../img/bg2.png') center (center/cover) no-repeat;
+
+	&__form-wrapper {
+		margin: 0 auto;
+		padding: 40px;
+		width: 630px;
+		height: 100%;
+		border-radius: 5px;
+		background-color: #EAEAEA;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__descr {
+		margin-top: 14px;
+		width: 400px;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 130%;
+		text-align: center;
+		color: #2C2C2C;
+	}
+
+	label.error {
+		color: red;
+		border: none;
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	
+	input.error {
+		margin-bottom: 4px;
+	}
+}
