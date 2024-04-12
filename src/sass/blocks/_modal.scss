@@ -15,12 +15,12 @@
 	width: 382px;
 	min-height: 402px;
 	background: #F2F2F2;
-	padding: 35px 25px 40px 25px;
+	padding: 50px 25px;
 
 	&__close {
 		position: absolute;
-		top: 0;
-		right: -35px;
+		top: 12px;
+		right: 12px;
 		font-size: 41px;
 		line-height: 21px;
 		color: $main_color;
